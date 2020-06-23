@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     loadContent() {
-      getBookSectionContent().then(
+      getBookSectionContent(this.sectionId).then(
         response => {
           if (response.data.length > 0) {
             this.content = response.data[0]['body']
