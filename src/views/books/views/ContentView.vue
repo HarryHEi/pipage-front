@@ -86,6 +86,7 @@ export default {
 }
 .content-next {
   font-size: 1.5em;
-  margin: 20px;
+  margin: 0px 40px 20px 20px;
+  float: right;
 }
 </style>
